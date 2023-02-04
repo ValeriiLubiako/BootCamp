@@ -1,0 +1,44 @@
+.menu-link {
+    color: black;
+    font: size 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.title {
+    color: brown !important
+}
+
+.title {
+    color: yellow
+}
+
+.title {
+    color: green
+}
+
+.text {
+    width: 500px;
+}
+
+.heading {
+    text-align: center;
+    background-color: gray;
+}
+
+.photo {
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+
+.block {
+    width: 900px;
+    height: 500px;
+    border: 1px solid #000;
+    background-image: url(https://aroundpet.ru/wp-content/uploads/kobi-kot-s-samymi-krasivymi-glazami-foto-1170x767.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500 px;
+
+}
