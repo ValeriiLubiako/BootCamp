@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JavaScript</title>
+</head>
+
+<body>
+    <p> Это обычный HTML-документ</p>
+
+    <script language="JavaScript">
+
+        alert("Привет, мир!!!");
+
+        // Не будет ошибкой
+        let message = "hello!!!";
+
+        message = 123456;
+
+        let n = 1234;
+
+        n = 87.654;
+
+        // Infinity означает бесконечность
+        alert(5 / 0);  // Infinity
+        // NaN (Not a Number означает вычислительную ошибку)
+        alert("не число" / 4); // NaN
+
+        let name = "Алена";
+
+        //  Вставим переменную
+        alert('Привет, ${name}!');  //  Привет, Алена!
+
+        // Вставим выражение
+        alert('Равно: ${2 + 2}!');  // Равно: 4
+        let age;
+
+        alert(age); // undefined
+
+        age = null
+
+        alert(age); // null
+
+        alert(typeof undefined);   // undefined
+
+        alert(typeof 0);  //  number
+        alert(typeof true);  // boolean
+        alert(typeof "true");    //  string
+
+        alert("Привет");
+
+        let test = prompt("Test");
+
+        alert(test);
+
+        let right = confirm("Are you always right?");
+
+        alert(right);
+
+        //  alert(confirm("Ты всегда прав?"));
+
+        let promptname = prompt("Введите имя");
+        alert(promptname);
+
+        let m = parseInt(prompt("Введите число"));
+        alert(m + 10);
+
+        // Унарный лидирующий плюс не влияет на числа
+        let x = 1;
+        alert(+x);  // 1
+
+        // Преобразует нечисла в числа
+
+        alert(+true);  // 1
+        alert(+"");   // 0
+
+        // Условный оператор
+
+        let year = 2023;
+
+        if (year == 2023) {
+            alert("Правильно!!!");
+            alert("Вы такой умый!!!");
+        }
+        let accessAllowed = (age > 18) ? true : false;
+        alert(accessAllowed);
+
+        // Оператор цикла
+
+        let i = 0;
+
+        while (i < 3) {
+            alert(i);
+            i++;
+        }
+
+        i = 0;
+
+        do {
+            alert(i);
+            i++;
+        } while (i < 3);
+
+
+        for (let j = 0; j < 3; j++) { // выведеь 0б затем 1б затем 2
+            alert(j);
+        }
+
+        // Конструкция switch
+
+        let b = 2 + 2;
+
+        switch (b) {
+            case 3:
+                alert("Маловато");
+                break;
+            case 4:
+                alert("В точку!");
+                break;
+            case 5:
+                alert("Перебор!");
+                break;
+            default:
+                alert("Нет таких знаяеи!");
+        }
+
+        //   Функции
+
+        function sum(a, b) {
+            return (a + b);
+        }
+
+
+
+        let aa = paresInt(prompt("Введите число aa:"));
+        let bb = parseInt("Введите число bb:");
+        alert(sum(aa + bb));
+
+    </script>
+
+</body>
+
+</html>
